@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 # load environment variables
 
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "use your api"
 # read API key from environment
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
@@ -139,5 +139,6 @@ def ask():
 
 if __name__ == "__main__":
     app.run(debug=True)                                  
+
 
 
